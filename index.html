@@ -3,11 +3,63 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<title>thevenay</title>
+	<style type="text/css">
+		.mdiv{
+			height: 100vh;
+			width: 100vw;
+			background-color: green;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Zijk61xjqJAiJXAmbYnKijiceI5LR1YBAA&usqp=CAU");
+			background-repeat: no-repeat;
+			background-size: 100%;
+			color: aquamarine;
+			font-family: Impact;
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			border: 10px ghostwhite;
+			align-items: flex-start;
+			-webkit-text-stroke: 0.5px lightcyan;
+
+
+		}
+		.name{
+			font-family: Segoe UI Black;
+			color: 65, 128, 108;
+			text-shadow: yellow;
+			position: relative;
+			top: 35px;
+			padding: 150px;
+
+		}
+		#CornerImage {
+            position: fixed;
+            bottom: 15px;
+            right: 1020px;
+            width: 150px;
+            height: auto;
+            border-radius: 10%;
+            z-index: 10;
+        }
+	</style>
 </head>
 <body>
-       <div>
-       	<h1>sushant</h1>
-       </div>
+<div  class="mdiv">
+	<div style="width:900px" align="center">
+		  <img src="C:/Users/vinay/OneDrive/Desktop/por1.png" alt="por1.png" id="CornerImage">
+		<h1>दिवाळीच्या हार्दिक शुभेच्छा!🙏🏻🤩
+       </h1>
+	<marquee scrollamount="40" behavior="alternative" direction="Right"><h2 class="name" id="data">
+	</h2></marquee>
+	</div>
+</div>
+<script type="text/javascript">
+	let name = prompt("Enter your Name")
+	let data = document.getElementById('data');
+	data.innerHTML="Happy Diwali "+name+"..."+" Good Wishes from OMKAR"	
+</script>
 </body>
 </html>
