@@ -1,0 +1,5 @@
+Structured Query Language is a standard Database language that is used to create, maintain, and retrieve the relational database. In this article, we will discuss this in detail about SQL. Following are some interesting facts about SQL. Let’s focus on that.
+
+SQL is case insensitive. But it is a recommended practice to use keywords (like SELECT, UPDATE, CREATE, etc.) in capital letters and use user-defined things (like table name, column name, etc.) in small letters.
+
+We can write comments in SQL using “–” (double hyphen) at the beginning of any line. SQL is the programming language for relational databases (explained below) like MySQL, Oracle, Sybase, SQL Server, Postgre, etc. Other non-relational databases (also called NoSQL) databases like MongoDB, DynamoDB, etc. do not use SQL.
